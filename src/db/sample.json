@@ -1,0 +1,9 @@
+{
+  "posts/sampleposts": [
+    { "id": 1, "title": "Hello World" }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "body": "some comment" }
+  ],
+  "profile": { "name": "typicode" }
+}
