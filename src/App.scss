@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+
+
+@font-face {
+  font-family: 'Gotham-700-Bold';
+  src: url('./media/fonts/Gotham-700-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-500-Medium';
+  src: url('./media/fonts/Gotham-500-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-400-Book';
+  src: url('./media/fonts/Gotham-400-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+$coba-petrol: #002e3c;
+$coba-fat-font: Gotham-700-Bold;
+$coba-medium-font: Gotham-500-Medium;
+$coba-thin-font: Gotham-400-Book;
+
+body {
+  background-color: white;
+  font-family: $coba-thin-font, sans-serif;
+  color: $coba-petrol;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper {
+  margin: 10px;
 }
