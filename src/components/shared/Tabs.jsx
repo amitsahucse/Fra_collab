@@ -3,17 +3,17 @@ import SetBudget from "../existing_customer/SetBudget";
 import SetCalories from "../existing_customer/SetCalories";
 import './Tabs.scss'
 
-function TabsComponent() {
+function TabsComponent({ state, updateState }) {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
     {
       title: "Set monthly budget",
-      content: <SetBudget />
+      content: <SetBudget state={state} updateState={updateState} />
     },
     {
       title: "Set nutritional goal",
-      content: <SetCalories />
+      content: <SetCalories state={state} updateState={updateState} />
     },
     {
       title: "Previous purchases",

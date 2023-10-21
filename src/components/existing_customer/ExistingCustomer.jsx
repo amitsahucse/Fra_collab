@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './ExistingCustomer.scss';
 import graphImage from './temp_current-month-graph.PNG';
 import caloriesImage from '../../media/images/temp_current-month-graph-calories.PNG'
@@ -17,6 +17,7 @@ import {
 import { Bar, Pie } from 'react-chartjs-2';
 
 const ExistingCustomer = () => {
+  const [areNutrientsFilled, setAreNutrientsFilled] = useState(false);
   const [state, setState] = useState({
     "userId": "",
     "budget": {
@@ -112,10 +113,14 @@ const ExistingCustomer = () => {
     ]
   };
 
-  const areNutrientsFilled =  Object.values(state.nutrients.spent).every(value => value !== null);
+  useEffect(() => {
+    const filled = Object.values(state.nutrients.spent).every(value => value !== null);
+    setAreNutrientsFilled(filled);
+    console.log("areNutrientsFilled ", areNutrientsFilled,
+      "\nstate ", state);
+  }, [state.nutrients.spent]);
 
-  console.log("areNutrientsFilled ", areNutrientsFilled,
-    "\nstate ", state);
+
 
   return (
     <>
@@ -147,6 +152,7 @@ const ExistingCustomer = () => {
 
       <TabsComponent
         updateState={(newState) => setState(prevState => ({ ...prevState, ...newState }))}
+        state={state}
       />
     </div>
     </>

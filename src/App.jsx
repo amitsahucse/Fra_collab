@@ -9,6 +9,7 @@ import ExistingCustomer from "./components/existing_customer/ExistingCustomer";
 import NewCustomer from "./components/new_customer/NewCustomer";
 import LoginPage from "./components/login/LoginPage";
 import WelcomePage from "./components/welcome/WelcomePage";
+import MyComponent from './components/existing_customer/MyComponent';
 
 function App() {
   return (
