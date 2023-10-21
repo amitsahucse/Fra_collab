@@ -13,12 +13,12 @@ import WelcomePage from "./components/welcome/WelcomePage";
 function App() {
   return (
     <Router>
-      <nav>
-        <Link to="/login">LoginPage</Link>
-        <Link to="/existing-customer">ExistingCustomer</Link>
-        <Link to="/new-customer">NewCustomer</Link>
-        <Link to="/welcome">Welcome</Link>
-      </nav>
+      {/*<nav>*/}
+      {/*  <Link to="/login">LoginPage</Link>*/}
+      {/*  <Link to="/existing-customer">ExistingCustomer</Link>*/}
+      {/*  <Link to="/new-customer">NewCustomer</Link>*/}
+      {/*  <Link to="/welcome">Welcome</Link>*/}
+      {/*</nav>*/}
       <Routes>
         <Route path="/login" element={<LoginPage/>}/>
         <Route path="/existing-customer" element={<ExistingCustomer/>}/>
