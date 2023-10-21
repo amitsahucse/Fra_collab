@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import SetBudget from "../existing_customer/SetBudget";
+import SetCalories from "../existing_customer/SetCalories";
 
 function TabsComponent() {
   const [activeTab, setActiveTab] = useState(0);
@@ -6,11 +8,11 @@ function TabsComponent() {
   const tabs = [
     {
       title: "Set monthly budget",
-      content: "Content for Tab 1"
+      content: <SetBudget />
     },
     {
       title: "Set nutritional goal",
-      content: "Content for Tab 2"
+      content: <SetCalories />
     },
     {
       title: "Previous purchases",

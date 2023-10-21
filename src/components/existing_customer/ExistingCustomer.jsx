@@ -8,6 +8,7 @@ const ExistingCustomer = () => {
 
   return (
     <div className="wrapper">
+
       {/*Top part*/}
       <div className="constant">
         <div className="upload_section">

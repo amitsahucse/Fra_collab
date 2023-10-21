@@ -1,0 +1,29 @@
+{
+  "current-status": {
+    "user": {
+      "UserID": 143
+    },
+    "budget": {
+      "MonthlyBudgetRemaining": 250,
+      "MonthlyBudgetSpent": 50
+    },
+    "nutrients": {
+      "Protein": 550,
+      "SaturatedFat": 430,
+      "Fat": 100,
+      "Carb": 3000,
+      "Sugar": 30,
+      "Fibre": 840
+    },
+    "units": {
+      "Protein": "g",
+      "SaturatedFat": "g",
+      "Fat": "g",
+      "Carb": "g",
+      "Sugar": "g",
+      "Fibre": "g",
+      "MonthlyBudgetRemaining": "eur",
+      "MonthlyBudgetSpent": "eur"
+    }
+  }
+}
