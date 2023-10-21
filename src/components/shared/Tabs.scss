@@ -1,0 +1,27 @@
+.tabs_wrapper {
+  //border: 1px solid #002e3c;
+  border-radius: 5px;
+}
+
+.tabs_controls {
+  box-shadow: 0 1px 0 #ced8da;
+  height: 64px;
+
+  div {
+    line-height: 64px;
+    float: left;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #808080;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+
+  div.active {
+    border-bottom: 2px solid #ffd700;
+  }
+}
+
+.tabs_content {
+  margin-top: 3px;
+}

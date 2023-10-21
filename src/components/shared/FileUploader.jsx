@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './FileUploader.scss'
 
-function FileUploader() {
+function FileUploader({ updateState }) {
   const [data, setData] = useState({
     budget: null,
     nutrients: null
@@ -21,21 +21,36 @@ function FileUploader() {
       setIsProcessing(true);
       setTimeout(() => {
         setIsProcessing(false);
-        setData({
-          budget: {
-            MonthlyBudgetSpent: 47.50
-          },
+
+        setData(prevData => ({
+          ...prevData,
           nutrients: {
-            Protein: 550,
-            SaturatedFat: 430,
-            Fat: 100,
-            Carb: 3000,
-            Sugar: 30,
-            Fibre: 840
+            ...prevData.nutrients,
+            spent: {
+              Protein: 100,
+              SaturatedFat: 25,
+              Fat: 69,
+              Carb: 386,
+              Sugar: 38,
+              Fibre: 69
+            }
+          }
+        }));
+
+        updateState({
+          nutrients: {
+            spent: {
+              Protein: 100,
+              SaturatedFat: 25,
+              Fat: 69,
+              Carb: 386,
+              Sugar: 38,
+              Fibre: 69
+            }
           }
         });
-      }, 5000); // еще 5 seconds
-    }, 5000); // первые 5 seconds
+      }, 5000);
+    }, 5000);
   };
 
   return (

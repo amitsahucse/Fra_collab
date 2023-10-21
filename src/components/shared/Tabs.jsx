@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import SetBudget from "../existing_customer/SetBudget";
 import SetCalories from "../existing_customer/SetCalories";
+import './Tabs.scss'
 
 function TabsComponent() {
   const [activeTab, setActiveTab] = useState(0);
@@ -21,20 +22,20 @@ function TabsComponent() {
   ];
 
   return (
-    <div>
-      <div className="tabs">
+    <div className="tabs_wrapper">
+      <div className="tabs_controls">
         {tabs.map((tab, index) => (
-          <button
+          <div
             key={index}
             onClick={() => setActiveTab(index)}
             className={activeTab === index ? 'active' : ''}
           >
             {tab.title}
-          </button>
+          </div>
         ))}
       </div>
 
-      <div className="tab-content">
+      <div className="tabs_content">
         {tabs[activeTab].content}
       </div>
     </div>
