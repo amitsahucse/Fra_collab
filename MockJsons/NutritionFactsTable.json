@@ -1,0 +1,27 @@
+{
+  "Itemcode": "3017624010701",
+  "ItemName": "Nutella",
+  "EcoScore": "D",
+  "Nutriscore": "E",
+  "Plastic Package": "Yes",
+  "Kcal": "539",
+  "Protein": "6.3g",
+  "Saturated Fat": "10.6g",
+  "Fat": "30.9g",
+  "Carb": "57.5g",
+  "Sugar": "56.3g",
+  "Fibre": "0g"
+ },
+ {
+  "Itemcode": "3502110009449",
+  "ItemName": "Orangensaft - Tropicana",
+  "EcoScore": "C",
+  "Nutriscore": "C",
+  "Plastic Package": "Yes",
+  "Kcal": "40",
+  "Saturated Fat": "0g",
+  "Fat": "0g",
+  "Carb": "8.9g",
+  "Sugar": "8.9g",
+  "Fibre": "0.6g"
+ }
