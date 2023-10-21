@@ -1,7 +1,34 @@
 import React from 'react';
 import './LoginPage.scss'; // Import your CSS file
+import {auth,provider} from "../../config.js";
+import {signInWithPopup} from "firebase/auth";
+import { useState,useEffect } from 'react';
+import Welcome from '../welcome/WelcomePage';
+import {Navigate, useNavigate} from 'react-router-dom';
 
 const LoginPage = () => {
+
+  const [value,setValue] = useState('')
+  // const handleClick =()=>{
+  //     signInWithPopup(auth,provider).then((data)=>{
+  //         setValue(data.user.email)
+  //         localStorage.setItem("email",data.user.email)
+  //     })
+  // }
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    signInWithPopup(auth,provider).then((data)=>{
+        setValue(data.user.email)
+        localStorage.setItem("email",data.user.email);
+        navigate('/existing-customer'); // Redirect to ExistingCustomer page
+    })
+  }
+  useEffect(()=>{
+      setValue(localStorage.getItem('email'))
+  })
+
+
   const handleLogin = (e) => {
     e.preventDefault();
     // Add login logic here
@@ -35,7 +62,13 @@ const LoginPage = () => {
             <span role="img" aria-label="lock" style={{color: 'white'}}>🔒</span>
                 <span style={{color: 'White'}}>Login</span>
               </div>
-        <button type="button" className="google-signin">Sign in with Google</button>
+
+              
+              <div>
+        {value? navigate('/existing-customer'):
+        <button onClick={handleClick}>Signin With Google</button>
+        }
+    </div>
       </form>
     </div>
   );
