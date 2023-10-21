@@ -25,6 +25,7 @@ function App() {
         <Route path="/existing-customer" element={<ExistingCustomer/>}/>
         <Route path="/new-customer" element={<NewCustomer/>}/>
         <Route path="/welcome" element={<WelcomePage/>}/>
+        
       </Routes>
     </Router>
   );

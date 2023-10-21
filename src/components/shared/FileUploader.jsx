@@ -46,6 +46,14 @@ function FileUploader({ updateState }) {
               Carb: 386,
               Sugar: 38,
               Fibre: 69
+            },
+            initial: {
+              Protein: 460,
+              SaturatedFat: 389,
+              Fat: 88,
+              Carb: 3254,
+              Sugar: 31,
+              Fibre: 869
             }
           }
         });

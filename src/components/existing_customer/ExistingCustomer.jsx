@@ -130,6 +130,7 @@ const ExistingCustomer = () => {
       <div className="constant">
         <div className="top_section upload_section">
           <FileUploader
+            state={state}
             updateState={(newState) => setState(prevState => ({ ...prevState, ...newState }))}
           />
           {/*<div className="upload_icon">+</div>*/}
@@ -137,7 +138,7 @@ const ExistingCustomer = () => {
         </div>
         <div className="top_section monthly-report_section budget-report">
           <div className="current-month_budget_graph">
-            <Pie data={pieData} />
+            <Pie data={pieData} height={200} />
             {/*<img src={graphImage} alt="placeholder for monthly budget graph"/>*/}
           </div>
           <div className="current-month_budget_description">
@@ -146,7 +147,7 @@ const ExistingCustomer = () => {
           </div>
         </div>
         <div className="top_section monthly-report_section nutrition-report">
-          {areNutrientsFilled && <Bar options={options} data={barData} height={300} />}
+          {areNutrientsFilled && <Bar options={options} data={barData} height={200} />}
         </div>
       </div>
 

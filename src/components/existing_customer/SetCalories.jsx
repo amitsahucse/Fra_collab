@@ -11,13 +11,11 @@ const SetCalories = ({ state, updateState }) => {
 
   const updateNutrientsSet = () => {
     const updatedValues = {
-      Protein: parseFloat(proteinRef.current.value),
-      Fat: parseFloat(fatRef.current.value),
-      Carb: parseFloat(carbRef.current.value),
-      Fibre: parseFloat(fibreRef.current.value)
+      Protein: proteinRef.current.value ? parseFloat(proteinRef.current.value) : null,
+      Fat: fatRef.current.value ? parseFloat(fatRef.current.value) : null,
+      Carb: carbRef.current.value ? parseFloat(carbRef.current.value) : null,
+      Fibre: fibreRef.current.value ? parseFloat(fibreRef.current.value) : null
     };
-
-    console.log("updatedValues ", updatedValues)
 
     updateState(prevState => ({
       ...prevState,
@@ -58,27 +56,27 @@ const SetCalories = ({ state, updateState }) => {
         </tr>
         <tr>
           <td>Protein</td>
-          <td><input ref={proteinRef} type="text" placeholder={state.nutrients.set.Protein || ''}/></td>
+          <td><input ref={proteinRef} type="text" placeholder={state?.nutrients?.set?.Protein || ''}/></td>
           <td>|</td>
-          <td>{state.nutrients.initial.Protein}g</td>
+          <td>{state?.nutrients?.initial?.Protein}g</td>
         </tr>
         <tr>
           <td>Fats</td>
-          <td><input ref={fatRef} type="text" placeholder={state.nutrients.set.Fat || ''}/></td>
+          <td><input ref={fatRef} type="text" placeholder={state?.nutrients?.set?.Fat || ''}/></td>
           <td>|</td>
-          <td>{state.nutrients.initial.Fat}g</td>
+          <td>{state?.nutrients?.initial?.Fat}g</td>
         </tr>
         <tr>
           <td>Carbs</td>
-          <td><input ref={carbRef} type="text" placeholder={state.nutrients.set.Carb || ''}/></td>
+          <td><input ref={carbRef} type="text" placeholder={state?.nutrients?.set?.Carb || ''}/></td>
           <td>|</td>
-          <td>{state.nutrients.initial.Carb}g</td>
+          <td>{state?.nutrients?.initial?.Carb}g</td>
         </tr>
         <tr>
           <td>Fibre</td>
-          <td><input ref={fibreRef} type="text" placeholder={state.nutrients.set.Fibre || ''}/></td>
+          <td><input ref={fibreRef} type="text" placeholder={state?.nutrients?.set?.Fibre || ''}/></td>
           <td>|</td>
-          <td>{state.nutrients.initial.Fibre}g</td>
+          <td>{state?.nutrients?.initial?.Fibre}g</td>
         </tr>
         <tr>
           <td></td>
