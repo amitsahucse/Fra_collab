@@ -1,4 +1,4 @@
- {
+{
   "Itemcode": "3017624010701",
   "ItemName": "Nutella",
   "EcoScore": "D",
@@ -10,7 +10,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "0.1"
  },
  {
   "Itemcode": "3502110009449",
@@ -24,7 +25,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "3.1"
  },
  {
   "Itemcode": "4388844104396",
@@ -38,7 +40,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "5.1"
  },
  {
   "Itemcode": "2915482016846",
@@ -52,7 +55,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  },
  {
   "Itemcode": "14",
@@ -66,7 +70,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "15",
@@ -80,7 +85,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "3.1"
  },
  {
   "Itemcode": "16",
@@ -94,7 +100,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "5.1"
  },
  {
   "Itemcode": "17",
@@ -108,7 +115,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  },
  {
   "Itemcode": "18",
@@ -122,7 +130,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "4"
  },
  {
   "Itemcode": "19",
@@ -136,7 +145,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "3.1"
  },
  {
   "Itemcode": "20",
@@ -150,7 +160,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "3"
  },
  {
   "Itemcode": "21",
@@ -164,7 +175,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  },
  {
   "Itemcode": "22",
@@ -178,7 +190,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "23",
@@ -192,7 +205,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "3.1"
  },
  {
   "Itemcode": "24",
@@ -206,7 +220,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "3.2"
  },
  {
   "Itemcode": "25",
@@ -220,7 +235,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  },
  {
   "Itemcode": "26",
@@ -234,7 +250,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "27",
@@ -248,7 +265,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "3.1"
  },
  {
   "Itemcode": "28",
@@ -262,7 +280,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "4.2"
  },
  {
   "Itemcode": "29",
@@ -276,7 +295,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  },
  {
   "Itemcode": "30",
@@ -290,7 +310,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "31",
@@ -304,7 +325,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "3.1"
  },
  {
   "Itemcode": "32",
@@ -318,7 +340,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "5.1"
  },
  {
   "Itemcode": "33",
@@ -332,7 +355,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  },
  {
   "Itemcode": "34",
@@ -346,7 +370,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "35",
@@ -360,7 +385,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "6.4"
  },
  {
   "Itemcode": "36",
@@ -374,7 +400,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "5.1"
  },
  {
   "Itemcode": "37",
@@ -388,7 +415,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  },
  {
   "Itemcode": "38",
@@ -402,7 +430,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "39",
@@ -416,7 +445,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "3.1"
  },
  {
   "Itemcode": "40",
@@ -430,7 +460,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "41",
@@ -444,7 +475,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  },
  {
   "Itemcode": "42",
@@ -458,7 +490,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "43",
@@ -472,7 +505,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "3.1"
  },
  {
   "Itemcode": "44",
@@ -486,7 +520,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "5.1"
  },
  {
   "Itemcode": "45",
@@ -500,7 +535,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  },
  {
   "Itemcode": "46",
@@ -514,7 +550,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "47",
@@ -528,7 +565,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "2.2"
  },
  {
   "Itemcode": "48",
@@ -542,7 +580,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "5.1"
  },
  {
   "Itemcode": "49",
@@ -556,7 +595,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  },
  {
   "Itemcode": "50",
@@ -570,7 +610,8 @@
   "Fat": "30.9g",
   "Carb": "57.5g",
   "Sugar": "56.3g",
-  "Fibre": "0g"
+  "Fibre": "0g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "51",
@@ -584,7 +625,8 @@
   "Fat": "0g",
   "Carb": "8.9g",
   "Sugar": "8.9g",
-  "Fibre": "0.6g"
+  "Fibre": "0.6g",
+  "CarbonFootprint": "2.1"
  },
  {
   "Itemcode": "52",
@@ -598,7 +640,8 @@
   "Fat": "0g",
   "Carb": "8g",
   "Sugar": "6g",
-  "Fibre": "2g"
+  "Fibre": "2g",
+  "CarbonFootprint": "3.3"
  },
  {
   "Itemcode": "53",
@@ -612,7 +655,8 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "5.1"
  },
  {
   "Itemcode": "54",
@@ -626,5 +670,6 @@
   "Fat": "2.5g",
   "Carb": "152g",
   "Sugar": "81g",
-  "Fibre": "63,2g"
+  "Fibre": "63,2g",
+  "CarbonFootprint": "1.2"
  }
