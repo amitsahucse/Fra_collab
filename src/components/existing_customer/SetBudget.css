@@ -1,0 +1,100 @@
+/* GroceryBudget.css */
+
+.budget-heading {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 20px; /* Add margin for spacing */
+  }
+  
+  .budget-input {
+    width: 28%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .currency-symbol {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+  }
+  
+  /* SetBudget.css */
+
+.budget-slider {
+    -webkit-appearance: none;
+    width: 25%;
+    height: 10px;
+    border-radius: 5px;
+    background: #FFD700; /* Set the background color of the slider */
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .budget-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black; /* Set the color of the sliding element */
+    cursor: pointer;
+  }
+  
+  .budget-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black; /* Set the color of the sliding element */
+    cursor: pointer;
+  }
+  .slider-label {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+    margin-top:10px;
+  }
+  .budget-input::before {
+    content: '€';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+  }
+  .input-container {
+    position: relative;
+  }
+  
+  .euro-symbol {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px; /* Adjust this value as needed */
+  }
+  .round-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    
+    color: white;
+    border-radius: 50px;
+    font-family: 'Gotham-700-Bold';
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .round-button:hover{
+    background-color: #FFC700;
+  }
