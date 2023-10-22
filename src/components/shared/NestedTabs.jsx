@@ -57,12 +57,12 @@ function NestedTabs() {
         <div className="badge_picture_wrapper">
           {selectedMonth === 'September' && (
             <div className="badge_picture1" >
-              <img src={badge1Image}/>
+              <img src={badge1Image} style={{height:'450px', marginLeft:"40px"}}/>
             </div>
           )}
           {selectedMonth === 'August' && (
             <div className="badge_picture2">
-              <img src={badge2Image}/>
+              <img src={badge2Image} style={{height:'450px', marginLeft:"40px"}} />
               PLACE THE BADGE 2 HERE
             </div>
           )}

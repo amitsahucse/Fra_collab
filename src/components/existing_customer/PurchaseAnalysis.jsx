@@ -7,7 +7,7 @@ function PurchaseAnalysis({ state, updateState }) {
 
   return (
     <div className="tabs_content">
-      <img src={purchaseAnalysisImage}/>
+      <img src={purchaseAnalysisImage} style={{height:'300px'}}/>
     </div>
   );
 }
