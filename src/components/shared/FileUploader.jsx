@@ -23,17 +23,9 @@ function FileUploader({ updateState }) {
         setIsProcessing(false);
 
         setData(prevData => ({
-          ...prevData,
-          nutrients: {
-            ...prevData.nutrients,
-            spent: {
-              Protein: 100,
-              SaturatedFat: 25,
-              Fat: 69,
-              Carb: 386,
-              Sugar: 38,
-              Fibre: 69
-            }
+          budget: {
+            set: null,
+            spent: 47.5
           }
         }));
 
@@ -57,8 +49,8 @@ function FileUploader({ updateState }) {
             }
           }
         });
-      }, 5000);
-    }, 5000);
+      }, 2000);
+    }, 2000);
   };
 
   return (
@@ -82,7 +74,7 @@ function FileUploader({ updateState }) {
       <div>
         {data.budget && (
           <div>
-            <p>You've already spent {data.budget.MonthlyBudgetSpent}€</p>
+            <p>You've already spent {data.budget.spent}€</p>
             <p>Now set the goals</p>
           </div>
         )}

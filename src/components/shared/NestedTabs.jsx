@@ -25,11 +25,11 @@ function NestedTabs() {
   const sharing_title = "Hey, take a look, I'm so sustainable!!"
   const tabs = [
     {
-      title: "Set monthly budget",
+      title: "Purchase analysis",
       content: <PurchaseAnalysis  />
     },
     {
-      title: "Set nutritional goal",
+      title: "Monthly advisor",
       content: <NutriAdvisor />
     }
   ];
@@ -40,14 +40,18 @@ function NestedTabs() {
       <div className="badges_switcher"></div>
       <div className="badges_itself">
         <div className="badge-switcher">
-          <select
-            value={selectedMonth}
-            onChange={(e) => setSelectedMonth(e.target.value)}
-          >
-            <option value="" disabled>Select a month</option>
-            <option value="September">September</option>
-            <option value="August">August</option>
-          </select>
+          <div className="select">
+            <select
+              id="standard-select"
+              value={selectedMonth}
+              onChange={(e) => setSelectedMonth(e.target.value)}
+            >
+              <option value="" disabled>Select a month</option>
+              <option value="September">September</option>
+              <option value="August">August</option>
+            </select>
+            <span className="focus"></span>
+          </div>
         </div>
         <div className="badge_picture_wrapper">
           {selectedMonth === 'September' && (

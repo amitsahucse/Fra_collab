@@ -138,7 +138,7 @@ const ExistingCustomer = () => {
         </div>
         <div className="top_section monthly-report_section budget-report">
           <div className="current-month_budget_graph">
-            <Pie data={pieData} height={200} />
+            {state.budget.set && <Pie data={pieData} height={200} />}
             {/*<img src={graphImage} alt="placeholder for monthly budget graph"/>*/}
           </div>
           <div className="current-month_budget_description">
