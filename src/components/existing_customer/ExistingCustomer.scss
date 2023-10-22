@@ -1,0 +1,15 @@
+.current-month_budget_graph{
+    box-sizing: border-box;
+    display: block;
+    height: 250px;
+    width: 250px;
+    
+    margin-top: 30px;
+}
+
+
+.constant {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    gap: 20px; /* Add some space between the elements */
+  }
