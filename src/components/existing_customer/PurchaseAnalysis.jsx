@@ -6,7 +6,6 @@ function PurchaseAnalysis({ state, updateState }) {
 
   return (
     <div className="tabs_content">
-      Place the pictures here
     </div>
   );
 }
