@@ -28,6 +28,9 @@ const LoginPage = () => {
       setValue(localStorage.getItem('email'))
   })
 
+  const navigateToCustomer = () => {
+    navigate('/existing-customer');
+  }
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -58,9 +61,9 @@ const LoginPage = () => {
           
           <input type="number" placeholder='Enter your age (optional)' id="age" required />
         </div>
-        <div className="round-button">
-            <span role="img" aria-label="lock" style={{color: 'white'}}>🔒</span>
-                <span style={{color: 'White'}}>Login</span>
+        <div className="round-button" onClick={navigateToCustomer}>
+            {/*<span role="img" aria-label="lock" >🔒</span>*/}
+                <span>Login</span>
               </div>
 
               
