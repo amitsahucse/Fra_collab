@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import '../shared/Tabs.scss'
 import PurchaseAnalysis from "../existing_customer/PurchaseAnalysis";
 import NutriAdvisor from "../existing_customer/NutriAdvisor";
+import badge1Image from "./Badge1.jpg";
+import badge2Image from "./Badge2.jpg";
+
 import {
   FacebookShareButton,
   InstapaperShareButton,
@@ -10,6 +13,12 @@ import {
 } from "react-share";
 
 function NestedTabs() {
+  const style12 = {
+    backgroundImage: `url(${badge1Image})`,
+    width: '100px',
+    height: '100px',
+  };
+
   const [activeTab, setActiveTab] = useState(0);
   const [selectedMonth, setSelectedMonth] = useState('September');
   const sharing_url = window.location.href;
@@ -46,12 +55,13 @@ function NestedTabs() {
         </div>
         <div className="badge_picture_wrapper">
           {selectedMonth === 'September' && (
-            <div className="badge_picture1">
-              PLACE THE BADGE 1 HERE
+            <div className="badge_picture1" style={style12}>
+              <img src={badge1Image}/>
             </div>
           )}
           {selectedMonth === 'August' && (
             <div className="badge_picture2">
+              <img src={badge2Image}/>
               PLACE THE BADGE 2 HERE
             </div>
           )}
