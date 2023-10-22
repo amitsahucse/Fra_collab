@@ -176,4 +176,18 @@
   .select + label {
     margin-top: 2rem;
   }
+
+  .purchaseAnalysis
+{
+  height: 300px;
+}
+
+  .tabs_content
+  {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+  }
+ 
+
 }

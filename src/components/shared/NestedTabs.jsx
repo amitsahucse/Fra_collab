@@ -4,6 +4,7 @@ import PurchaseAnalysis from "../existing_customer/PurchaseAnalysis";
 import NutriAdvisor from "../existing_customer/NutriAdvisor";
 import badge1Image from "./Badge1.jpg";
 import badge2Image from "./Badge2.jpg";
+import purchaseAnalysis from "./PurchaseAnalysis.jpg";
 
 import {
   FacebookShareButton,
@@ -13,11 +14,11 @@ import {
 } from "react-share";
 
 function NestedTabs() {
-  // const style12 = {
-  //   backgroundImage: `url(${badge1Image})`,
-  //   width: '100px',
-  //   height: '100px',
-  // };
+  const style12 = {
+    backgroundImage: `url(${badge1Image})`,
+    width: '100px',
+    height: '100px',
+  };
 
   const [activeTab, setActiveTab] = useState(0);
   const [selectedMonth, setSelectedMonth] = useState('September');
@@ -55,15 +56,13 @@ function NestedTabs() {
         </div>
         <div className="badge_picture_wrapper">
           {selectedMonth === 'September' && (
-            <div className="badge_picture1"
-                 // style={style12}
-            >
-              <img src={badge1Image}/>
+            <div className="badge_picture1" >
+              <img src={badge1Image} style={{height:'450px', marginLeft:"40px"}}/>
             </div>
           )}
           {selectedMonth === 'August' && (
             <div className="badge_picture2">
-              <img src={badge2Image}/>
+              <img src={badge2Image} style={{height:'450px', marginLeft:"40px"}} />
               PLACE THE BADGE 2 HERE
             </div>
           )}
