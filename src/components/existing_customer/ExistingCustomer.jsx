@@ -108,7 +108,7 @@ const ExistingCustomer = () => {
     datasets: [
       {
         data: [21, 79],
-        backgroundColor: ['#FF6384', '#36A2EB'], // Colors for each sector
+        backgroundColor: ['#004080', '#008000'], // Colors for each sector
       }
     ]
   };

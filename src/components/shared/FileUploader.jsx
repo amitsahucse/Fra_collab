@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './FileUploader.scss'
+import './FileUploader.scss';
+
 
 function FileUploader({ updateState }) {
   const [data, setData] = useState({
@@ -55,22 +56,29 @@ function FileUploader({ updateState }) {
 
   return (
     <div>
+      <div className='file-uploader'>
+      <h2>Upload Purchase Reciept</h2>
+      
+        <div className="upload-button" onClick={() => document.getElementById("fileInput").click()}>
+
+        </div>
+        {/*<button onClick={handleUpload}>*/}
+        {/*  Upload*/}
+        {/*</button>*/}
+        <input
+          type="file"
+          id="fileInput"
+          style={{ display: 'none' }}
+          onChange={handleUpload}
+        // onChange={handleFileChange}
+        />
+<p>Please click here to upload your grocery receipt</p>
+
+      </div>
       {/*<button onClick={() => document.getElementById("fileInput").click()}>*/}
       {/*  Choose a file*/}
       {/*</button>*/}
-      <div className="upload-button" onClick={() => document.getElementById("fileInput").click()}>
 
-      </div>
-      {/*<button onClick={handleUpload}>*/}
-      {/*  Upload*/}
-      {/*</button>*/}
-      <input
-        type="file"
-        id="fileInput"
-        style={{ display: 'none' }}
-        onChange={handleUpload}
-        // onChange={handleFileChange}
-      />
       <div>
         {data.budget && (
           <div>
