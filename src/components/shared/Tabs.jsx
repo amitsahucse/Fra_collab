@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import SetBudget from "../existing_customer/SetBudget";
 import SetCalories from "../existing_customer/SetCalories";
 import './Tabs.scss'
+import NestedTabs from "./NestedTabs";
 
 function TabsComponent({ state, updateState }) {
   const [activeTab, setActiveTab] = useState(0);
@@ -17,7 +18,7 @@ function TabsComponent({ state, updateState }) {
     },
     {
       title: "Previous purchases",
-      content: "Content for Tab 3"
+      content: <NestedTabs />
     }
   ];
 
