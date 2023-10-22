@@ -107,7 +107,7 @@ const ExistingCustomer = () => {
     labels: ['Spent', 'Remaining'],
     datasets: [
       {
-        data: [21, 79],
+        data: [9, 91],
         backgroundColor: ['#FF6384', '#36A2EB'], // Colors for each sector
       }
     ]

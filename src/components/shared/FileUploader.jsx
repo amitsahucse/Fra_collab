@@ -25,7 +25,7 @@ function FileUploader({ updateState }) {
         setData(prevData => ({
           budget: {
             set: null,
-            spent: 47.5
+            spent: 23.47
           }
         }));
 

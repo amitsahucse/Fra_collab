@@ -12,7 +12,7 @@ const SetBudget = ({state, updateState}) => {
     updateState({
       budget: {
         set: budget,
-        spent: 47.5
+        spent: 23.47
       },
       nutrients: {
         initial: {
